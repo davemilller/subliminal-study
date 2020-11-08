@@ -131,7 +131,7 @@ def play():
     count = 0
 
     # main loop
-    while count < 5:
+    while count < 50:
         # blended trial
         n = random.randint(1, 5)
         if n == 1 or n == 2: # short-prime
