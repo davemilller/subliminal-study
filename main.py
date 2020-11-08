@@ -141,7 +141,7 @@ def play():
             primeTime = 0
             trial = 'no-prime'
         else:           # long-prime
-            primeTime = 50
+            primeTime = 100
             trial = 'long-prime'
 
         screen.fill(white)
@@ -161,7 +161,7 @@ def play():
         screen.blit(fixation, fixPos)
         pygame.display.update()
 
-        pygame.time.wait(350)
+        pygame.time.delay(120)
         pygame.event.clear()
 
         # target for 2 sec, get difference in time from here to key press (response time)
